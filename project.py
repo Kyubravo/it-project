@@ -35,4 +35,6 @@ def RandomTree(dataset):
 dataset = pd.read_csv("petrol_consumption.csv")  # import the dataset
 print(dataset.head())  # To get a high-level view of what the dataset looks like
 
+RandomTree(dataset)
+
 
